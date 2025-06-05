@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.10)
 
-project(CppWebSocketServer)
+project(master)
 
 set(CMAKE_CXX_STANDARD 17)
 

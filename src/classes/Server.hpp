@@ -14,19 +14,16 @@ class Server
 {
 private:
     std::string address;
-    std::string name;
 
 public:
     Server();
-    Server(const std::string &address, const std::string &name);
+    Server(const std::string &address);
 
     // Getters
     const std::string &getAddress() const;
-    const std::string &getName() const;
 
     // Setters
     void setAddress(const std::string &address);
-    void setName(const std::string &name);
 };
 
 #endif // SERVER_HPP
