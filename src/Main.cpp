@@ -9,7 +9,8 @@
 
 int main()
 {
-    HttpServer server(8080);
+    Config *config = new Config("Config.txt");
+    HttpServer server(config->getInt("HTTP_PORT"), config);
 
     if (!server.start())
     {
@@ -17,5 +18,6 @@ int main()
     }
 
     server.run();
+
     return 0;
 }

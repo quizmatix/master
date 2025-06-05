@@ -11,5 +11,6 @@ pkgs.mkShell {
     ninja
     pkg-config
     boost
+    jsoncpp
   ];
 }

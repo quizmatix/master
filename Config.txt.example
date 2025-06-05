@@ -1,0 +1,3 @@
+# Quizmatix Master Server Configuration
+SERVER_REGISTRY_KEY=your_secret_registry_key_here
+HTTP_PORT=8080
